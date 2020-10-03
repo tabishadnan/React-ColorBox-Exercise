@@ -13,14 +13,14 @@ class ColorBoxes extends Component {
 
     changeColor = (index) => {
         let newColor = Math.floor(Math.random() * this.props.colors.length);
-        let arrCopy = this.state.nColors;
-        if (this.state.nColors[index] === newColor) {
+        let arrCopy = [...this.state.nColors];
+        if (arrCopy[index] === newColor) {
             newColor = newColor + 1;
             arrCopy.splice(index, 1, newColor);
             this.setState({
                 nColors: arrCopy
             })
-        }else if (this.state.nColors[index] === this.props.colors.length) {
+        }else if (arrCopy[index] === this.props.colors.length) {
             newColor = newColor - 2;
             arrCopy.splice(index, 1, newColor);
             this.setState({
@@ -40,7 +40,7 @@ class ColorBoxes extends Component {
                 <ul>
                     {this.state.nColors.map((color, index) => {
                         return (
-                        <li onClick={() => this.changeColor(index)} key={`${index}`} className="boxes" style={{ backgroundColor: this.props.colors[color] }}>{this.props.colors[index]}</li>
+                        <li onClick={() => this.changeColor(index)} key={`${index}`} className="boxes" style={{ backgroundColor: this.props.colors[color] }}>{this.props.colors[color]}</li>
                         )
                     })}
                 </ul>
