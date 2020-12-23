@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/color-box-exercise/static/css/main.a41f23ae.chunk.css",
-    "main.js": "/color-box-exercise/static/js/main.e693a115.chunk.js",
-    "main.js.map": "/color-box-exercise/static/js/main.e693a115.chunk.js.map",
-    "runtime-main.js": "/color-box-exercise/static/js/runtime-main.eae0dd29.js",
-    "runtime-main.js.map": "/color-box-exercise/static/js/runtime-main.eae0dd29.js.map",
-    "static/js/2.231f006d.chunk.js": "/color-box-exercise/static/js/2.231f006d.chunk.js",
-    "static/js/2.231f006d.chunk.js.map": "/color-box-exercise/static/js/2.231f006d.chunk.js.map",
-    "index.html": "/color-box-exercise/index.html",
-    "precache-manifest.8d233fe1b96a74c7e252385cdef68167.js": "/color-box-exercise/precache-manifest.8d233fe1b96a74c7e252385cdef68167.js",
-    "service-worker.js": "/color-box-exercise/service-worker.js",
-    "static/css/main.a41f23ae.chunk.css.map": "/color-box-exercise/static/css/main.a41f23ae.chunk.css.map",
-    "static/js/2.231f006d.chunk.js.LICENSE.txt": "/color-box-exercise/static/js/2.231f006d.chunk.js.LICENSE.txt"
+    "main.css": "/react-colorbox-exercise/static/css/main.a41f23ae.chunk.css",
+    "main.js": "/react-colorbox-exercise/static/js/main.1e69a464.chunk.js",
+    "main.js.map": "/react-colorbox-exercise/static/js/main.1e69a464.chunk.js.map",
+    "runtime-main.js": "/react-colorbox-exercise/static/js/runtime-main.060fa453.js",
+    "runtime-main.js.map": "/react-colorbox-exercise/static/js/runtime-main.060fa453.js.map",
+    "static/js/2.5b5c253c.chunk.js": "/react-colorbox-exercise/static/js/2.5b5c253c.chunk.js",
+    "static/js/2.5b5c253c.chunk.js.map": "/react-colorbox-exercise/static/js/2.5b5c253c.chunk.js.map",
+    "index.html": "/react-colorbox-exercise/index.html",
+    "precache-manifest.0160836f07b11571647d47d0594c4484.js": "/react-colorbox-exercise/precache-manifest.0160836f07b11571647d47d0594c4484.js",
+    "service-worker.js": "/react-colorbox-exercise/service-worker.js",
+    "static/css/main.a41f23ae.chunk.css.map": "/react-colorbox-exercise/static/css/main.a41f23ae.chunk.css.map",
+    "static/js/2.5b5c253c.chunk.js.LICENSE.txt": "/react-colorbox-exercise/static/js/2.5b5c253c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.eae0dd29.js",
-    "static/js/2.231f006d.chunk.js",
+    "static/js/runtime-main.060fa453.js",
+    "static/js/2.5b5c253c.chunk.js",
     "static/css/main.a41f23ae.chunk.css",
-    "static/js/main.e693a115.chunk.js"
+    "static/js/main.1e69a464.chunk.js"
   ]
 }
